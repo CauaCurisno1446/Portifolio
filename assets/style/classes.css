@@ -251,13 +251,14 @@
 }
 
 .trabalho-item{
-    background-color: var(--verde);
+    background-color: var(--branco);
     width: 90%;
     margin-left: 5%;
     padding: 10px;
     text-align: justify;
     border-radius: 15px;
     transition: transform 0.3s ease;
+    border: solid 1px var(--marrom);
 }
 
 .trabalho-item > h2{
