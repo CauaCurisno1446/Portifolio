@@ -55,4 +55,13 @@
     text-align: left;
     left: 0;
 }
+
+
+#wrap-cert{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
 /* FIM */
