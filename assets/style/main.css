@@ -554,29 +554,27 @@
         height: auto;
         padding: 0;
         
-        /* Posiciona no canto superior direito */
         position: fixed;
         top: 20px;
         right: 20px;
-        left: auto;            /* Remove o posicionamento antigo */
-        transform: none;       /* Remove a centralização antiga */
+        left: auto;           
+        transform: none;       
         
-        background: transparent; /* Remove o fundo branco */
-        border: none;            /* Remove bordas */
-        box-shadow: none;        /* Remove sombra */
-        overflow: visible;       /* Importante para o menu aparecer fora */
+        background: transparent; 
+        border: none;            
+        box-shadow: none;        
+        overflow: visible;      
         
         display: flex;
         flex-direction: column;
-        align-items: flex-end;   /* Alinha tudo à direita */
+        align-items: flex-end;   
     }
 
-    /* 2. Esconde o logo (opcional, já que você pediu para virar UMA bolinha) */
+
     .header-left {
         display: none;
     }
 
-    /* 3. Estiliza a "Bolinha" (Botão) */
     #btn-mobile {
         display: flex;
         justify-content: center;
@@ -584,7 +582,7 @@
         
         width: 60px;
         height: 60px;
-        border-radius: 50%;      /* Faz virar bolinha */
+        border-radius: 50%;      
         
         background-color: var(--azul-escuro);
         color: var(--branco);
@@ -599,15 +597,13 @@
     #btn-mobile:hover {
         transform: scale(1.1);
     }
-
-    /* 4. Estiliza a Lista de Links (Menu) */
+    
     .header-right {
-        display: none; /* Começa escondido */
+        display: none; 
         
-        /* Estilo da caixa do menu quando abrir */
         background-color: var(--azul-escuro);
         position: absolute;
-        top: 70px; /* Logo abaixo da bolinha */
+        top: 70px; 
         right: 0;
         width: 200px;
         padding: 20px;
@@ -618,13 +614,11 @@
         z-index: 1000;
     }
 
-    /* Classe que o JavaScript vai adicionar para mostrar o menu */
     .header-right.active {
         display: flex;
         animation: descerSuave 0.3s forwards;
     }
 
-    /* Ajuste dos links dentro do menu */
     .header-link {
         color: var(--branco);
         font-size: 18px;
@@ -663,7 +657,7 @@
     }
 
     #banner-h1 {
-        font-size: 8rem !important; 
+        font-size: 5rem !important; 
     }
 
     .banner-title h1 {
@@ -686,11 +680,11 @@
     }
 
     .me-right {
-        width: 100%;
+        display: flex;
+        justify-content: center;
     }
 
     .me-text {
-        width: 90%; 
         height: auto;
         margin: 0 auto;
         grid-template-rows: auto;
@@ -711,14 +705,21 @@
         grid-template-rows: 200px auto; 
     }
 
+    #form-content-fatec {
+        height: 550px;
+    }
+
     /* --- Experiências e Skills --- */
 
     #experi{
-        font-size: 80px !important;
+        font-size: 60px !important;
     }
 
     #exp-fer{
-        margin-left: 10% !important;
+        text-align: center;
+        width: 90% !important;
+        margin: 0 !important;
+        margin-left: 5% !important;
     }
 
     .forms {
@@ -791,6 +792,10 @@
         padding: 20px 0;
         height: auto;
     }
+
+    .hab-type{
+        font-size: 60px;
+    }
     
     .hab-card-body {
         grid-template-columns: 1fr;
@@ -812,6 +817,16 @@
     #traj-texto-p{
         margin: 0 20px;
         font-size: 16px;
+        padding-bottom: 40px;
+    }
+
+    #traj-ok{
+        font-size: 65px !important;
+        padding-bottom: 40px;
+    }
+
+    #fariacursino{
+        height: 550px;
     }
 
 
@@ -827,7 +842,7 @@
     }
 
     #cert-ok{
-        font-size: 60px !important;
+        font-size: 52px !important;
     }
 
     /* --- Footer --- */
