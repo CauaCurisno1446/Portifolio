@@ -1,0 +1,120 @@
+/* Gerais */
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--branco);
+}
+
+h1{
+    font-family: "Titulo-banner", sans-serif;
+    color: var(--branco);
+    text-align: center;
+    background-color: transparent;
+}
+
+h2{
+    font-family: "Titulo", sans-serif;
+    color: var(--branco);
+    text-align: center;
+    background-color: transparent;
+}
+
+p, a{
+    font-family: "Regular", sans-serif;
+    text-align: justify;
+    background-color: transparent;
+    color: var(--preto);
+}
+
+figure{
+    background-color: transparent;
+}
+
+/* Classes uteis */
+.titulo{
+    font-family: "Titulo", sans-serif;
+    font-size: 3rem;
+    color: var(--branco);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.icon{
+    background-color: transparent;
+    margin-right: 5px;
+}
+
+
+.transparente{
+    background-color: transparent;
+}
+
+.texto-branco{
+    color: var(--branco);
+}
+
+.form-title{
+    font-family: "Titulo", sans-serif;
+    color: var(--azul-escuro);
+    margin-top: 10px;
+}
+
+/* Cores principais */
+:root{
+    --azul-escuro: #213F95;
+    --azul-claro: #A1E1BC;
+    --branco: #fefde7;
+    --branco-escuro: #e8e7d2;
+    --preto: #252b37;
+    --kabul: #58423e;
+}
+
+/*Seleção de texto*/
+::selection {
+    color: var(--azul-escuro);
+    background-color: var(--azul-claro);
+  }
+
+
+/*Fonte personalizada*/
+@font-face {
+    font-family: "Titulo";
+    src: url("../fonts/oslla.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Regular";
+    src: url("../fonts/Erode-Medium.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Titulo-banner";
+    src: url("../fonts/amolin.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+    font-size: 250px;
+}
+
+/* Animação do quadriculado */
+@keyframes deslizar {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -900px 0;
+  }
+}

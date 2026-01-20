@@ -1,0 +1,37 @@
+.header-link:hover{
+    transform: scale(1.2);
+}
+
+.curriculo:hover{
+    transform: scale(0.9);
+}
+
+.formacao-item:hover{
+    transform: scale(1.01);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); 
+}
+
+#form-cards:hover > :not(:hover){
+    filter: blur(2px);
+    opacity: 0.5;
+}
+
+.forms > div:hover{
+    color: var(--azul-escuro);
+    position: relative;
+    transform: scale(1.05);
+    transition: 0.5s;
+    cursor: url('../clique.cur') 4 4, auto;
+}
+
+
+#img-footer:hover{
+    transform: rotate(60deg);
+    transition: 0.6s;
+}
+
+.footer-right i:hover{
+    color: var(--azul-claro);
+    transform: translateY(-5px);
+    transition: 0.6s;
+}

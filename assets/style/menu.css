@@ -1,26 +1,27 @@
 /* CORES */
 :root{
-    --azul: #253659;
-    --azul-claro: #03A696;
+    --azul: #213F95;
+    --azul-claro: #A1E1BC;
     --azul-mais-claro: #04BF9D;
-    --laranja: #F28157;
-    --vermelho: #BF665E;
+    --laranja: #fefde7;
+    --vermelho: #fefde7;
 }
 
 /*Fonte personalizada*/
 @font-face {
     font-family: "Titulo";
-    src: url("../fonts/TwistedDonutDEMO-Regular.otf") format("opentype");
+    src: url("../fonts/oslla.otf") format("opentype");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "Texto";
-    src: url("../fonts/HWYGNRRW.TTF") format("truetype");
+    font-family: "Regular";
+    src: url("../fonts/Erode-Medium.otf") format("opentype");
     font-weight: normal;
     font-style: normal;
 }
+
 
 /*ScrollBar*/
 ::-webkit-scrollbar {
@@ -57,10 +58,11 @@
   left: 50%;
   transform: translate(-50%, -50%);
   pointer-events: none; 
-  border: solid 10px var(--laranja);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); 
   border-radius: 50%;
-  height: 300px;
+  height: 350px;
   width: 350px;
+  object-fit: cover; 
 }
 
 
@@ -72,11 +74,20 @@ h2{
 }
 
 p{
-    font-family: "Texto", sans-serif;
-    color: var(--azul-mais-claro);
+    font-family: "Regular", sans-serif;
+    color: var(--azul-claro);
     font-size: 25px;
     text-align: center;
 }
+
+button{
+    font-family: "Regular", sans-serif;
+    color: var(--azul-claro);
+    font-size: 25px;
+    text-align: center;
+}
+
+
 
 #container{
     margin: auto;

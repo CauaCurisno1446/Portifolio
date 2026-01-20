@@ -1,0 +1,851 @@
+/* Header */
+.header{
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    height: 8vh;
+    background: var(--branco);
+    border-radius: 40px; 
+    overflow: hidden; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); 
+    border: 2px solid var(--azul-escuro);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    z-index: 1000;
+}
+
+#btn-mobile {
+    display: none;
+}
+
+.header-left{
+    margin-left: 8%;
+}
+
+.header-right{
+    margin-right: 5%;
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+}
+
+.header-link{
+    display: flex;
+    text-decoration: none;
+    color: var(--azul-escuro);
+    justify-content: center;
+    align-items: center;  
+    transition: ease 0.6s all;
+    font-weight: bold;
+}
+
+
+
+/* Parte banner */
+.banner{
+    display: flex;
+    background-color: var(--azul-escuro);
+    height: 80vh;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-title{
+    display: grid;
+    grid-template-rows: auto 20px;
+    margin-left: 23%;
+    background-color: var(--azul-escuro);
+}
+
+#banner-h1{
+    font-size: 250px; 
+    font-weight: normal;
+}
+
+.banner-text{
+    background-color: transparent;
+    color: var(--branco);
+}
+
+/* Quadriculado animado */
+#quadriculado {
+  width: auto;
+  height: 50px;
+  background-image: url("../img/padrao.png");
+  animation: deslizar 15s linear infinite;
+}
+
+
+
+/* Sobre mim */
+.about{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: auto;
+}
+
+.me-left{
+    border-radius: 20px;
+}
+
+.me-photo{
+    width: 400px;
+    height: 650px;
+    background-image: url("../img/eu.jpg");
+    background-size: cover;
+    border-radius: 100px;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.me-right{
+    border-radius: 20px;
+}
+
+.me-text{
+    display: grid;
+    grid-template-rows: 50px auto;
+    align-items: center;
+    width: 1000px;
+    height: 500px;
+    background-color: var(--branco);
+    margin: auto;
+    margin-top: 100px;
+}
+
+.me-text-title{
+    font-family: "Titulo", sans-serif;
+    font-size: 2.5rem;
+    color: var(--azul-escuro);
+    text-align: center;
+}
+
+.me-text-body{
+    font-family: "Regular", sans-serif;
+    font-size: 22px;
+    text-align: justify;
+}
+
+.me-text-body p > span{
+    color: var(--azul-escuro);
+    font-weight: bold;
+}
+
+.me-text-body p > span > a{
+    color: var(--azul-escuro);
+    font-weight: bold;
+}
+
+.curriculo{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 400px;
+    height: 50px;
+    margin: auto;
+    background-color: var(--azul-escuro);
+    color: var(--branco);
+    margin-top: 20px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: ease 0.6s all;
+    cursor: pointer;
+    border: none;
+}
+
+#curriculo-download{
+    text-decoration: none;
+}
+
+
+
+/* Formações */
+#formacoes{
+    display: grid;
+    grid-template-rows: auto auto;
+    background-color: var(--branco-escuro);
+    height: auto;
+    padding-bottom: 50px;
+}
+
+#form-cards{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: transparent;
+}
+
+.formacao-item{
+    background-color: var(--azul-escuro);
+    width: 30%;
+    height: 600px;
+    margin: 50px auto auto auto;
+    display: grid;
+    grid-template-rows: 60% 40%;
+    border-radius: 25px;
+    transition: ease 0.6s all;
+    overflow: hidden;
+}
+
+.form-photo{
+    overflow: hidden;
+}
+
+.form-photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.form-content{
+    display: grid;
+    grid-template-rows: 20px auto;
+    text-align: center;
+    background-color: transparent;
+    color: var(--branco);
+}
+
+
+
+/* Footer */
+.footer{
+    background-color: var(--preto);
+    display: grid;
+    grid-template-columns: 150px auto auto;
+    height: 150px;
+}
+
+.footer-left{
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.footer-left img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover; 
+    border: 2px solid #BBA58F; 
+    filter: drop-shadow(0 0 10px black);
+    transition: transform 0.6s ease;
+}
+
+.footer-mid{
+    background-color: transparent;
+    color: var(--branco);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.footer-right{
+    background-color: transparent;
+    color: var(--branco);
+    display: flex;
+    align-self: center;
+    align-items: flex-end;
+    font-size: 18px;
+}
+
+.footer-right a i{
+    font-size: 80px;
+    margin-right: 30px;
+    color: var(--branco);
+    transition: transform 0.3s ease;
+    background-color: transparent;
+}
+
+
+/* Experiências */
+#experiencias{    
+    height: 1400px; 
+    display: grid;
+    grid-template-rows: 250px auto;
+    background-color: var(--azul-escuro);
+    padding-bottom: 50px;
+}
+
+#exp-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    margin-top: 7%;
+}
+
+#exp-body{
+    padding-top: 8%;
+    background-color: transparent;
+    color: var(--branco);
+    font-family: "Regular", sans-serif;
+    font-size: 22px;
+}
+
+.forms{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    gap: 16px;
+    background-color: var(--azul-escuro);
+    padding: 16px 0;
+}
+
+.forms > div{
+    background-color: var(--branco);
+    height: 300px;
+    text-align: center;
+    border-radius: 5px;
+    transition: transform 0.6s ease;
+    cursor: pointer;
+
+    flex: 0 0 calc(25% - 12px);
+}
+
+.icon-card{
+    font-size: 100px;
+    margin-top: 10px;
+    color: var(--azul-escuro);
+    background-color: transparent;
+}
+
+.form-text{
+    font-family: "Regular", sans-serif;
+    color: var(--azul-escuro);
+    margin: 10px auto;
+    text-align: justify;
+    width: 90%;
+    background-color: transparent;
+}
+
+#linha-skills{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    background-color: transparent;
+    align-items: flex-end;
+    margin-left: 5%;
+}
+
+#linha-skills > img{
+    height: 150px;
+    background-color: transparent;
+
+}
+
+
+/* Projetos */
+#projetos{
+    background-color: var(--branco-escuro);
+    padding-bottom: 50px;
+}
+
+
+/* Habilidades */
+#habilidades{
+    height: 1000px;
+    background-color: var(--branco);
+    padding-bottom: 50px;
+    display: grid;
+    grid-template-rows: 300px auto;
+}
+
+#hab-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.hab-card-title{
+    background-color: transparent;
+    font-size: 80px;
+}
+
+.hab-card-body{
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    background-color: transparent;
+    padding-bottom: 20px;
+}
+
+.hab-card-body > div{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hab-card-body > div > p{
+    color: var(--branco);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.hab-card-body > div >i{
+    background-color: transparent;
+    font-size: 40px;
+    padding: 10px;
+}
+
+#soft{
+    width: 40%;
+    background-color: var(--azul-escuro);
+    color: var(--branco);
+    border-radius: 20px;
+    display: grid;
+    grid-template-rows: 160px auto;
+}
+
+#hard{
+    width: 40%;
+    color: var(--azul-escuro);
+    border-radius: 20px;
+    display: grid;
+    grid-template-rows: 160px auto;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); 
+}
+
+#hard .hab-card-body > div > p{
+    color: var(--azul-escuro);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+/* Trajetoria */
+#trajetoria{
+    position: relative;
+    height: 1200px;
+    background-color: var(--branco-escuro);
+    display: grid;
+    grid-template-rows: 250px auto;
+    overflow: hidden;
+}
+
+#trajetoria::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: var(--azul-escuro);
+
+  clip-path: polygon(
+    0 92%,
+    100% 86%,
+    100% 100%,
+    0 100%
+  );
+}
+
+#trajetoria-container{
+    background-color: transparent;
+    display: grid;
+    grid-template-rows: 120px auto;
+     
+}
+
+#traj-texto{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#traj-texto p > span{
+    color: var(--azul-escuro);
+    background-color: var(--azul-claro);
+}
+
+#traj-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    background-color: transparent;
+    width: 100%;
+}
+
+
+/* Certificacoes */
+#certificacoes{
+    height: 3000px;
+    display: grid;
+    grid-template-rows: 250px auto;
+    background-color: var(--azul-escuro);
+}
+
+
+#cert-title{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: transparent;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+#cert-body{
+    justify-content: center;
+    padding-top: 5%;
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--branco);
+    font-size: 22px;
+    gap: 30px;
+}
+
+.certificado{
+    background-color: transparent;
+    text-align: center;
+    font-weight: bold;
+}
+
+.certificado p{
+    color: var(--branco);
+    text-align: center;
+}
+
+.img-cert{
+    max-width: 100%;
+    width: 600px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+
+
+
+/* Responsividade */
+@media (max-width: 900px) {
+
+    body, html {
+        overflow-x: hidden;
+    }
+
+    .banner, #about, #formacoes, #experiencias, #projetos, #habilidades, #trajetoria, #certificacoes {
+        height: auto !important; 
+        min-height: auto !important;
+        padding-bottom: 50px;
+    }
+
+    h1, .titulo, .me-text-title {
+        font-size: 2rem !important; 
+        word-wrap: break-word;
+    }
+
+
+    /* --- Header --- */
+    .header {
+        width: auto;           
+        height: auto;
+        padding: 0;
+        
+        /* Posiciona no canto superior direito */
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        left: auto;            /* Remove o posicionamento antigo */
+        transform: none;       /* Remove a centralização antiga */
+        
+        background: transparent; /* Remove o fundo branco */
+        border: none;            /* Remove bordas */
+        box-shadow: none;        /* Remove sombra */
+        overflow: visible;       /* Importante para o menu aparecer fora */
+        
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;   /* Alinha tudo à direita */
+    }
+
+    /* 2. Esconde o logo (opcional, já que você pediu para virar UMA bolinha) */
+    .header-left {
+        display: none;
+    }
+
+    /* 3. Estiliza a "Bolinha" (Botão) */
+    #btn-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;      /* Faz virar bolinha */
+        
+        background-color: var(--azul-escuro);
+        color: var(--branco);
+        border: 2px solid var(--branco);
+        font-size: 24px;
+        cursor: pointer;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        z-index: 2000;
+        transition: 0.3s;
+    }
+    
+    #btn-mobile:hover {
+        transform: scale(1.1);
+    }
+
+    /* 4. Estiliza a Lista de Links (Menu) */
+    .header-right {
+        display: none; /* Começa escondido */
+        
+        /* Estilo da caixa do menu quando abrir */
+        background-color: var(--azul-escuro);
+        position: absolute;
+        top: 70px; /* Logo abaixo da bolinha */
+        right: 0;
+        width: 200px;
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+        flex-direction: column;
+        gap: 15px;
+        z-index: 1000;
+    }
+
+    /* Classe que o JavaScript vai adicionar para mostrar o menu */
+    .header-right.active {
+        display: flex;
+        animation: descerSuave 0.3s forwards;
+    }
+
+    /* Ajuste dos links dentro do menu */
+    .header-link {
+        color: var(--branco);
+        font-size: 18px;
+        padding: 10px;
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+        width: 100%;
+        text-align: center;
+    }
+    
+    .header-link:last-child {
+        border-bottom: none;
+    }
+
+    @keyframes descerSuave {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    }
+
+
+    /* --- Banner --- */
+    .banner {
+        height: 60vh !important;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .banner-title {
+        margin-left: 0;
+        transform: none;
+    }
+
+    #banner-h1 {
+        font-size: 8rem !important; 
+    }
+
+    .banner-title h1 {
+        font-size: 80px; 
+    }
+
+    /* --- Sobre Mim --- */
+    .about {
+        display: flex;
+        flex-direction: column; 
+        width: 100%;
+    }
+
+    .me-photo {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%; 
+        margin: 30px auto;
+        background-position: center;
+    }
+
+    .me-right {
+        width: 100%;
+    }
+
+    .me-text {
+        width: 90%; 
+        height: auto;
+        margin: 0 auto;
+        grid-template-rows: auto;
+        padding: 20px;
+        background-color: transparent;
+    }
+    
+    .me-text-body {
+        font-size: 16px;
+        text-align: left; 
+    }
+
+    /* --- Formações --- */
+    .formacao-item {
+        width: 90%; 
+        height: 450px;
+        margin: 20px auto;
+        grid-template-rows: 200px auto; 
+    }
+
+    /* --- Experiências e Skills --- */
+
+    #experi{
+        font-size: 80px !important;
+    }
+
+    #exp-fer{
+        margin-left: 10% !important;
+    }
+
+    .forms {
+        display: flex;
+        flex-direction: row; 
+        flex-wrap: wrap;     
+        justify-content: center;
+        gap: 10px;           
+        width: 100%;
+        padding: 0 10px;     
+    }
+
+    .forms > div {
+        flex: 0 0 calc(50% - 15px); 
+        width: auto;
+        height: auto;        
+        min-height: 200px;   
+        margin-bottom: 10px;
+        padding: 10px;       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .icon-card {
+        font-size: 50px; 
+        margin-top: 10px;
+    }
+
+    .form-title {
+        font-size: 1rem; 
+    }
+
+    .form-text {
+        font-size: 14px; 
+        line-height: 1.2;
+        text-align: center; 
+        width: 100%;
+    }
+
+    #linha-skills {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        padding-top: 20px;
+    }
+    
+    #linha-skills > img {
+        height: 60px;
+        margin: 5px;
+    }
+
+
+    /* --- Habilidades --- */
+    #habilidades {
+        grid-template-rows: auto auto;
+    }
+
+    #hab-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #soft, #hard {
+        width: 90%;
+        margin-bottom: 30px;
+        grid-template-rows: auto auto;
+        padding: 20px 0;
+        height: auto;
+    }
+    
+    .hab-card-body {
+        grid-template-columns: 1fr;
+    }
+    
+    .hab-card-body > div > p {
+        font-size: 24px;
+    }
+
+    #hard .hab-card-body > div > p{
+        font-size: 24px;
+    }
+
+    /* --- Trajetória --- */
+    #traj-cards{
+        height: 800px;
+    }
+
+    #traj-texto-p{
+        margin: 0 20px;
+        font-size: 16px;
+    }
+
+
+    /* --- Certificações --- */
+    #cert-body {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-cert {
+        width: 90%; 
+        height: auto;
+    }
+
+    #cert-ok{
+        font-size: 60px !important;
+    }
+
+    /* --- Footer --- */
+    .footer {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .footer-left img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .footer-right {
+        justify-content: center;
+    }
+}
