@@ -1,0 +1,106 @@
+{
+    "_comment": "PARTE DO HEADER",
+
+    "lan-header-about": "Eu",
+    "lan-header-formacoes": "Formações",
+    "lan-header-experiencias": "Tecnologias",
+    "lan-header-projetos": "Projetos",
+    "lan-header-habilidades": "Habilidades",
+    "lan-header-trajetoria": "Trajetória",
+    "lan-header-certificacoes": "Certificações",
+    "lan-banner": "por Cauã Cursino",
+
+
+    "_comment2": "PARTE SOBRE MIM",
+
+    "lan-about-title": "* sobre mim *",
+    "lan-about-text-p1": "Olá! Meu nome é <span>Cauã Mehiel Faria Cursino</span>. Antes de passar para a parte acadêmica, gostaria de fazer uma breve introdução. Nasci em São José dos Campos, São Paulo, e atualmente tenho 19 anos de idade. Atualmente estudo na FATEC São José dos Campos - Prof. Jessen Vidal e estou cursando <span>Análise e Desenvolvimento de Sistemas</span> e pretendo trabalhar na área de programação! No ano de 2025, servi o <span>Exército Brasileiro</span> e tive a oportunidade de desenvolver valores e competências que levo até hoje para a vida profissional, como disciplina, senso de responsabilidade, trabalho em equipe e capacidade de atuar sob pressão.",
+    "lan-about-text-p2": "Meus principais hobbies envolvem desenhar, escutar músicas, ler livros e jogar jogos de todos os tipos. Sou um técnico em informática com três anos de formação e um grande interesse por desenvolvimento de software e suporte técnico. Tenho experiência prática em diversas linguagens de programação e tecnologias, além de um perfil proativo, analítico e sempre disposto a aprender. Meu objetivo é integrar uma equipe onde possa aplicar meus conhecimentos, resolver desafios e continuar evoluindo profissionalmente.",
+    "lan-about-text-p3": "Nos últimos meses, me desafiei a trabalhar com <span>edições e produções audiovisuais</span>, explorando diferentes estilos de edição — desde vídeos institucionais, publicitários e conteúdo para redes sociais. Meu objetivo é sempre o mesmo: traduzir a ideia do cliente em uma narrativa visual envolvente e autêntica. Os conteúdos que desenvolvi, gravei e editei podem ser encontrados nesse perfil: <span><a href=\"https://www.instagram.com/edercursino/\" target=\"_blank\">Abrir perfil no instagram</a></span></p>",
+    "lan-about-curriculo-download": "<i class=\"fa-solid fa-file-arrow-down icon\"></i> Baixe meu Currículo completo!",
+
+
+    "_comment3": "PARTE FORMACOES",
+
+    "lan-form-title": "* formações *",
+    "lan-form-etep": "Estudei na ETEP, onde cursei Técnico em informática. Durante minha formação, aprendi sobre programação, bancos de dados e pacote Office. Essa experiência me proporcionou uma base sólida para aprofundar meus conhecimentos na área de tecnologia futuramente.",
+    "lan-form-opcao": "Estudei no Colégio Técnico Opção, onde cursei o Ensino Médio e Técnico em informática. Durante minha formação, aprofundei meus conhecimentos sobre programação e bancos de dados. Essa experiência me proporcionou uma melhor compreensão das tecnologias e sua aplicação na prática.",
+    "lan-form-fatec": "Atualmente estudo na FATEC de São José dos Campos, onde curso Análise e Desenvolvimento de Sistemas. Durante minha formação, estou aprimorando meus conhecimentos sobre programação (Web e Desktop), bancos de dados, desenvolvimento de software e metodologias ágeis. Essa experiência tem me proporcionado uma melhor compreensão tanto do ramo da programação quanto do mercado de trabalho.",
+
+
+    "_comment4": "PARTE EXPERIÊNCIAS",
+
+    "lan-exp-title": "Tecnologias",
+    "lan-exp-text": "Ao longo do curso e de experiências pessoais e acadêmicas, adquiri habilidades nas seguintes áreas:",
+    "lan-exp-text-java": "Para desenvolvimento <br>de aplicativos e lógica de programação.",
+    "lan-exp-text-python": "Usada para automação, análise de dados e scripts diversos.",
+    "lan-exp-text-csharp": "Para aplicações desktop e desenvolvimento de sistemas com interface gráfica.",
+    "lan-exp-text-php": "Para desenvolvimento web e integração com bancos de dados.",
+    "lan-exp-text-sql": "Modelagem, criação e manutenção de bancos de dados relacionais em MySQL e SQL Server.",
+    "lan-exp-text-js": "Para interatividade <br>em páginas web.",
+    "lan-exp-text-html": "Para criação e organização <br>de sites e sistemas web.",
+    "lan-exp-text-css": "Para a estilização <br>e personalização de sites",
+    "lan-exp-tools": "Abaixo estão algumas das ferramentas que utilizo:",
+
+
+    "_comment5": "PARTE HABILIDADES",
+
+    "lan-hab-title": "Habilidades",
+    "lan-hab-soft-lideranca": "Liderança",
+    "lan-hab-soft-adaptabilidade": "Adaptabilidade",
+    "lan-hab-soft-flexibilidade": "Flexibilidade",
+    "lan-hab-soft-criatividade": "Criatividade",
+    "lan-hab-soft-empatia": "Empatia",
+    "lan-hab-soft-trabalho-em-equipe": "Trabalho em equipe",
+    "lan-hab-hard-escrita": "Escrita",
+    "lan-hab-hard-pacote-office": "Pacote Office",
+    "lan-hab-hard-prototipos": "Criação de protótipos",
+    "lan-hab-hard-programacao": "Linguagens de programação",
+    "lan-hab-hard-ingles": "Língua inglesa",
+    "lan-hab-hard-git": "Git e GitHub",
+
+
+    "_xcomment6": "PARTE TRAJETÓRIA",
+
+    "lan-traj-title": "Trajetória",
+    "lan-traj-text": "Ao longo da <span>minha trajetória profissional</span>, tive a oportunidade de participar de diferentes experiências e projetos que contribuíram para o desenvolvimento das minhas habilidades técnicas e interpessoais. <br>Cada etapa apresentada a seguir <span>representa aprendizados importantes, desafios enfrentados e soluções construídas</span>, refletindo um processo contínuo de evolução, adaptação e crescimento profissional.",
+    "lan-traj-fariacursino": "Atuei como estagiário por aproximadamente cinco meses, com foco na área fiscal. Durante esse período, fui responsável pelo lançamento e emissão de notas fiscais, além da conferência e organização de dados, garantindo a correta escrituração e atenção aos detalhes. A experiência contribuiu para o desenvolvimento de organização, responsabilidade e familiaridade com rotinas fiscais e administrativas.",
+
+
+    "_comment7": "PARTE CERTIFICAÇÕES",
+
+    "lan-cert-title": "Certificações",
+    "lan-cert-text1": "Certificado de assiduidade - Exército Brasileiro",
+    "lan-cert-text2": "Certificado de nota 1000 na redação do simulado ENEM - Colégio Opção",
+    "lan-cert-text3": "Certificado de conclusão do curso de Git básico - Cursa",
+    "lan-cert-text4": "Certificado de projeto de interface gráfica com Python - Bradesco",
+    "lan-cert-text5": "Certificado de conclusão do curso de Implementação de banco de dados - Bradesco",
+    "lan-cert-text6": "Certificado de conclusão do curso de Escola de Inovadores - CPS",
+    "lan-cert-text7": "Certificado de conclusão do curso de Modelagem de Dados - Bradesco",
+    "lan-cert-text8": "Certificado de conclusão do curso de IA no Governo Federal - Enap",
+
+
+    "_comment8": "PARTE FOOTER",
+    "lan-footer": "© 2026 Cauã Cursino.<br>Desenvolvido com paixão por tecnologia, código limpo e inovação.<br>Feito com HTML, CSS, JavaScript e café ☕ — Todos os direitos reservados.",
+
+
+
+    "_comment9": "PROJETOS",
+
+    "lan-projetos-title": "* Projetos relevantes *",
+    "lan-projetos-tresgoblins-p1": "Sistema Web utilizado para <span>criar, armazenar e organizar fichas de personagens para jogadores de RPG</span> (Role Playing Game). O projeto nasceu a partir da reflexão sobre como as fichas de papel, comumente utilizadas pelos jogadores, podem tanto estragar facilmente quanto gerar lixo excessivo. Sendo assim, a plataforma é uma alternativa viável e 100% on-line para que os jogadores consigam ver seus personagens de forma simples e em qualquer lugar!",
+    "lan-projetos-tresgoblins-p2": "Os maiores desafios se deram por conta da linguagem PHP, que pode ser considerada \"antiga\" para desenvolvimento web. Participei na maior parte do desenvolvimento front e back-end das páginas, utilizando os recursos do PHP ligado ao MySQL.",
+    "lan-tresgoblins": "Acessar a documentação",
+    "lan-projetos-sama-p1": "O <span>SAMA</span> é um sistema desenvolvido para digitalizar o envio de atestados médicos e facilitar a avaliação contínua de equipes ágeis. Ele otimiza a gestão de documentos, melhora a comunicação entre os usuários e simplifica processos administrativos, promovendo maior transparência e eficiência. O projeto é desenvolvido com base na <span>metodologia ágil Scrum</span>, que utiliza sprints para garantir entregas contínuas, adaptativas e de alto valor para o cliente.",
+    "lan-projetos-sama-p2": "Os maiores desafios se deram pelo aprendizado do framework Flask e a divisão de tarefas na metodologia SCRUM. Participei no desenvolvimento front e back-end de algumas páginas, utilizando os recursos do framework.",
+    "lan-projetos-bibliogames-p1": "O <span>Bibliogames</span> é um sistema desenvolvido para digitalizar e organizar dados de jogos digitais já jogados pelo usuário, funcionando como uma lista pessoal. Foi pensado para uso pessoal, mas pode ser escalonado para outros usuários. Utiliza um banco de dados simples baseado em SQLite.",
+    "lan-projetos-bibliogames-p2": "Os maiores desafios se deram pelo aprendizado do framework Flask e a utilização mais aprofundada de CSS para a construção das telas. Participei no desenvolvimento front e back-end de todas as páginas, utilizando os recursos do framework e linguagem de marcação.",
+    "lan-projetos-pdi-p1": "Este programa foi desenvolvido para <span>otimizar o processo de criação e gestão de planos de desenvolvimento individual (PDIs)</span>. Ele oferece uma solução centralizada para líderes que buscam estruturar, monitorar e alcançar metas de crescimento de forma eficiente, promovendo uma cultura de melhoria contínua e desenvolvimento de competência.",
+    "lan-projetos-pdi-p2": "Os maiores desafios se deram pelo aprendizado da linguagem Java e a ferramenta JavaFX (na construção do front-end) e a divisão de tarefas na metodologia SCRUM. Participei no desenvolvimento front e back-end de algumas páginas, utilizando os recursos do framework.",
+    "lan-projetos-maes-p1": "O sistema foi desenvolvido para <span>organizar e gerenciar os encontros das Mães Que Oram pelos Filhos, um grupo de oração de uma paróquia.</span> Permite o cadastro de mães participantes, o gerenciamento dos encontros e serviços e a emissão de relatórios automáticos em .txt.",
+    "lan-projetos-maes-p2": "Os maiores desafios se deram pelo aprendizado da linguagem Java.",
+    "lan-LU": "Linguagens utilizadas:",
+    "lan-TEC": "Tecnologias:",
+    "lan-REPO": "Acessar repositório"
+
+}

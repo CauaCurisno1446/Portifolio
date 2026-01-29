@@ -2,6 +2,18 @@
     transform: scale(1.2);
 }
 
+.lang-btn:hover{
+    color: var(--azul-escuro);
+    transform: scale(1.1);
+}
+
+.lang-btn.active,
+.lang-btn:focus{
+    transform: translateY(2px);
+    background-color: var(--azul-claro);
+    border-radius: 15px;
+}
+
 .curriculo:hover{
     transform: scale(0.9);
 }

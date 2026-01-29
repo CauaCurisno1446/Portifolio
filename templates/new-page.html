@@ -9,25 +9,28 @@
     <link rel="stylesheet" href="../assets/style/assets.css">
     <link rel="stylesheet" href="../assets/style/animations.css">
     <link rel="stylesheet" href="../assets/style/carousel.css">
+    <link rel="stylesheet" href="../assets/style/responsive.css">
     <title>Portfolio - Cauã Cursino</title>
 </head>
 <body>
     <!-- Parte do header -->
     <header class="header">
         <div class="header-left">
-            <h1>Titulo</h1>
+            <button data-lang="lan_ptbr" class="lang-btn">🇧🇷 PT</button>
+            <button data-lang="lan_en" class="lang-btn">🇺🇸 EN</button>
+            <script src="../assets/scripts/language.js"></script>
         </div>
 
         <button id="btn-mobile"><i class="fa fa-bars"></i></button>
 
         <div class="header-right">
-            <div><a class="header-link" href="#about">Eu</a></div>
-            <div><a class="header-link" href="#formacoes">Formações</a></div>
-            <div><a class="header-link" href="#experiencias">Experiências</a></div>
-            <div><a class="header-link" href="#projetos">Projetos</a></div>
-            <div><a class="header-link" href="#habilidades">Habilidades</a></div>
-            <div><a class="header-link" href="#trajetoria">Trajetória</a></div>
-            <div><a class="header-link" href="#certificacoes">Certificações</a></div>
+            <div><a class="header-link" href="#about" data-i18n="lan-header-about">Eu</a></div>
+            <div><a class="header-link" href="#formacoes" data-i18n="lan-header-formacoes">Formações</a></div>
+            <div><a class="header-link" href="#experiencias" data-i18n="lan-header-experiencias">Experiências</a></div>
+            <div><a class="header-link" href="#projetos" data-i18n="lan-header-projetos">Projetos</a></div>
+            <div><a class="header-link" href="#habilidades" data-i18n="lan-header-habilidades">Habilidades</a></div>
+            <div><a class="header-link" href="#trajetoria" data-i18n="lan-header-trajetoria">Trajetória</a></div>
+            <div><a class="header-link" href="#certificacoes" data-i18n="lan-header-certificacoes">Certificações</a></div>
         </div>
     </header>
 
@@ -36,7 +39,7 @@
         
         <div class="banner-title">
             <div class="banner-text"><h1 id="banner-h1">Portfolio</h1></div>
-            <div class="banner-text" style="font-size: 20px; font-weight: normal;"><p style="text-align: right;color: var(--white);">por Cauã Cursino</p></div>
+            <div class="banner-text" style="font-size: 20px; font-weight: normal;"><p style="text-align: right;color: var(--white);" data-i18n="lan-banner">por Cauã Cursino</p></div>
         </div>
     </section>
     <div id="quadriculado"></div>
@@ -53,18 +56,17 @@
 
         <div class="me-right">
             <div class="me-text">
-                <div class="me-text-title">* sobre mim *</div>
+                <div class="me-text-title" data-i18n="lan-about-title">* sobre mim *</div>
                 <div class="me-text-body">
-                    <p>Olá! Meu nome é <span>Cauã Mehiel Faria Cursino</span>. Antes de passar para a parte acadêmica, gostaria de fazer uma breve introdução. Nasci em São José dos Campos e atualmente tenho 19 anos de idade. Atualmente estudo na FATEC São José dos Campos - Prof. Jessen Vidal e estou cursando <span>Análise e Desenvolvimento de Sistemas</span> e pretendo trabalhar na área de programação! No ano de 2025, servi o <span>Exército Brasileiro</span> e tive a oportunidade de desenvolver valores e competências que levo até hoje para a vida profissional, como disciplina, senso de responsabilidade, trabalho em equipe e capacidade de atuar sob pressão.</p><br>
+                    <p data-i18n="lan-about-text-p1">Olá! Meu nome é <span>Cauã Mehiel Faria Cursino</span>. Antes de passar para a parte acadêmica, gostaria de fazer uma breve introdução. Nasci em São José dos Campos, São Paulo, e atualmente tenho 19 anos de idade. Atualmente estudo na FATEC São José dos Campos - Prof. Jessen Vidal e estou cursando <span>Análise e Desenvolvimento de Sistemas</span> e pretendo trabalhar na área de programação! No ano de 2025, servi o <span>Exército Brasileiro</span> e tive a oportunidade de desenvolver valores e competências que levo até hoje para a vida profissional, como disciplina, senso de responsabilidade, trabalho em equipe e capacidade de atuar sob pressão.</p><br>
+
+                    <p data-i18n="lan-about-text-p2">Meus principais hobbies envolvem desenhar, escutar músicas, ler livros e jogar jogos de todos os tipos. Sou um técnico em informática com três anos de formação e um grande interesse por desenvolvimento de software e suporte técnico. Tenho experiência prática em diversas linguagens de programação e tecnologias, além de um perfil proativo, analítico e sempre disposto a aprender. Meu objetivo é integrar uma equipe onde possa aplicar meus conhecimentos, resolver desafios e continuar evoluindo profissionalmente.</p><br>
 
 
-                    <p>Meus principais hobbies envolvem desenhar, escutar músicas, ler livros e jogar jogos de todos os tipos. Sou um técnico em informática com três anos de formação e um grande interesse por desenvolvimento de software e suporte técnico. Tenho experiência prática em diversas linguagens de programação e tecnologias, além de um perfil proativo, analítico e sempre disposto a aprender. Meu objetivo é integrar uma equipe onde possa aplicar meus conhecimentos, resolver desafios e continuar evoluindo profissionalmente.</p><br>
-
-
-                    <p>Nos últimos meses, me desafiei a trabalhar com <span>edições e produções audiovisuais</span>, explorando diferentes estilos de edição — desde vídeos institucionais, publicitários e conteúdo para redes sociais. Meu objetivo é sempre o mesmo: traduzir a ideia do cliente em uma narrativa visual envolvente e autêntica. Os conteúdos que desenvolvi, gravei e editei podem ser encontrados nesse perfil: <span><a href="https://www.instagram.com/edercursino/" target="_blank">Abrir perfil no instagram</a></span></p>
+                    <p data-i18n="lan-about-text-p3">Nos últimos meses, me desafiei a trabalhar com <span>edições e produções audiovisuais</span>, explorando diferentes estilos de edição — desde vídeos institucionais, publicitários e conteúdo para redes sociais. Meu objetivo é sempre o mesmo: traduzir a ideia do cliente em uma narrativa visual envolvente e autêntica. Os conteúdos que desenvolvi, gravei e editei podem ser encontrados nesse perfil: <span><a href="https://www.instagram.com/edercursino/" target="_blank">Abrir perfil no instagram</a></span></p>
 
                    
-                    <a href="../assets/pdf/curriculo.pdf" download="Currículo-Cauã-Cursino.pdf" target="_blank" id="curriculo-download"> <div class="curriculo"><i class="fa-solid fa-file-arrow-down icon"></i> Baixe meu Currículo completo!</div></a>
+                    <a href="../assets/pdf/curriculo.pdf" download="Currículo-Cauã-Cursino.pdf" target="_blank" id="curriculo-download"> <div class="curriculo" data-i18n="lan-about-curriculo-download"><i class="fa-solid fa-file-arrow-down icon"></i> Baixe meu Currículo completo!</div></a>
                 </div>
             </div>
         </div>
@@ -73,7 +75,7 @@
     <!-- Formações -->
     <section class="formacoes" id="formacoes">
         <div style="background-color: transparent;">
-            <h1 class="me-text-title" style="margin-top: 110px; margin-left: 60px; text-align: left;">* formações *</h1>
+            <h1 class="me-text-title" style="margin-top: 110px; margin-left: 60px; text-align: left;" data-i18n="lan-form-title">* formações *</h1>
         </div>
 
         <div id="form-cards">
@@ -81,15 +83,15 @@
                 <div class="form-photo"><img src="../assets/img/etep.png"></div>
                 <div class="form-content">
                     <div class="transparente"><h1 style="font-family: 'Titulo', sans-serif; margin-top: 3%">ETEP</h1></div>
-                    <p class="texto-branco" style="margin-top: 40px; text-align: justify; width: 90%; margin: auto;">Estudei na ETEP, onde cursei Técnico em informática. Durante minha formação, aprendi sobre programação, bancos de dados e pacote Office. Essa experiência me proporcionou uma base sólida para aprofundar meus conhecimentos na área de tecnologia futuramente.</p>
+                    <p class="texto-branco" style="margin-top: 40px; text-align: justify; width: 90%; margin: auto;" data-i18n="lan-form-etep">Estudei na ETEP, onde cursei Técnico em informática. Durante minha formação, aprendi sobre programação, bancos de dados e pacote Office. Essa experiência me proporcionou uma base sólida para aprofundar meus conhecimentos na área de tecnologia futuramente.</p>
                 </div>
             </div>
 
-            <div class="formacao-item">
+            <div class="formacao-item" id="form-content-opcao">
                 <div class="form-photo"><img src="../assets/img/opcao.png"></div>
                 <div class="form-content">
                     <div class="transparente"><h1 style="font-family: 'Titulo', sans-serif; margin-top: 3%">Colégio Técnico Opção</h1></div>
-                    <p class="texto-branco" style="margin-top: 40px; text-align: justify; width: 90%; margin: auto;">Estudei no Colégio Técnico Opção, onde cursei o Ensino Médio e Técnico em informática. Durante minha formação, aprofundei meus conhecimentos sobre programação e bancos de dados. Essa experiência me proporcionou uma melhor compreensão das tecnologias e sua aplicação na prática.</p>
+                    <p class="texto-branco" style="margin-top: 40px; text-align: justify; width: 90%; margin: auto;" data-i18n="lan-form-opcao">Estudei no Colégio Técnico Opção, onde cursei o Ensino Médio e Técnico em informática. Durante minha formação, aprofundei meus conhecimentos sobre programação e bancos de dados. Essa experiência me proporcionou uma melhor compreensão das tecnologias e sua aplicação na prática.</p>
                 </div>
             </div>
 
@@ -97,7 +99,7 @@
                 <div class="form-photo"><img src="../assets/img/fatec.png"></div>
                 <div class="form-content">
                     <div class="transparente"><h1 style="font-family: 'Titulo', sans-serif; margin-top: 3%">FATEC - Prof. Jessen Vidal</h1></div>
-                    <p class="texto-branco" style="margin-top: 40px; text-align: justify; width: 90%; margin: auto;">Atualmente estudo na FATEC de São José dos Campos, onde curso Análise e Desenvolvimento de Sistemas. Durante minha formação, estou aprimorando meus conhecimentos sobre programação (Web e Desktop), bancos de dados, desenvolvimento de software e metodologias ágeis. Essa experiência tem me proporcionado uma melhor compreensão tanto do ramo da programação quanto do mercado de trabalho.</p>
+                    <p class="texto-branco" style="margin-top: 40px; text-align: justify; width: 90%; margin: auto;" data-i18n="lan-form-fatec">Atualmente estudo na FATEC de São José dos Campos, onde curso Análise e Desenvolvimento de Sistemas. Durante minha formação, estou aprimorando meus conhecimentos sobre programação (Web e Desktop), bancos de dados, desenvolvimento de software e metodologias ágeis. Essa experiência tem me proporcionado uma melhor compreensão tanto do ramo da programação quanto do mercado de trabalho.</p>
                 </div>
             </div>        
         </div>
@@ -108,31 +110,32 @@
     <section class="experiencias" id="experiencias">
 
         <div id="exp-title">
-           <h1 style="font-family: 'Titulo', sans-serif; font-size: 200px;" id="experi">EXPERIÊNCIAS</h1>
+           <h1 style="font-family: 'Titulo', sans-serif; font-size: 200px;" id="experi" data-i18n="lan-exp-title">EXPERIÊNCIAS</h1>
         </div>
 
         <div id="exp-body">
-                <p style="color: var(--branco); font-weight: bold; text-align: center;">Ao longo do curso e de experiências pessoais e acadêmicas, adquiri habilidades nas seguintes áreas:</p>
+                <p style="color: var(--branco); font-weight: bold; text-align: center;" data-i18n="lan-exp-text">Ao longo do curso e de experiências pessoais e acadêmicas, adquiri habilidades nas seguintes áreas:</p>
                 <br>
                 <br>    
 
                 <div id="exp-item" style="background-color: var(--azul-escuro);">
                     <div class="forms">
-                        <div><img src="../assets/img/c-.png" class="cSharp" style="width: 100px; height: 100px;"><h1 class="form-title">C#</h1><p class="form-text">para aplicações desktop e desenvolvimento de sistemas com interface gráfica.</p></div>            
-                        <div><i class='fab fa-python icon-card'></i><h1 class="form-title">Python</h1><p class="form-text">Usada para automação, análise de dados e scripts diversos.</p></div>            
-                        <div><i class="fa-brands fa-java icon-card"></i><h1 class="form-title">Java</h1><p class="form-text">para desenvolvimento <br>de aplicativos e lógica de programação.</p></div>            
-                        <div><i class="fa-brands fa-php icon-card"></i><h1 class="form-title">PHP</h1><p class="form-text">para desenvolvimento web e integração com bancos de dados.</p></div>            
-                        <div><i class="fa-solid fa-database icon-card"></i><h1 class="form-title">SQL e SQLite</h1><p class="form-text">Modelagem, criação e manutenção de bancos de dados relacionais em MySQL e SQL Server.</p></div>            
-                        <div><i class="fa-brands fa-js icon-card"></i><h1 class="form-title">JavaScript</h1><p class="form-text">para interatividade <br>em páginas web.</p></div>            
-                        <div><i class="fa-brands fa-html5 icon-card"></i><h1 class="form-title">HTML</h1><p class="form-text">para criação e organização <br>de sites e sistemas web.</p></div>            
-                        <div><i class="fa-brands fa-css icon-card"></i><h1 class="form-title">CSS</h1><p class="form-text">para a estilização <br>e personalização de sites</p></div>            
+                        <div><img src="../assets/img/c-.png" class="cSharp" style="width: 100px; height: 100px;"><h1 class="form-title">C#</h1><p class="form-text" data-i18n="lan-exp-text-csharp">para aplicações desktop e desenvolvimento de sistemas com interface gráfica.</p></div>            
+                        <div><i class='fab fa-python icon-card'></i><h1 class="form-title">Python</h1><p class="form-text" data-i18n="lan-exp-text-python">Usada para automação, análise de dados e scripts diversos.</p></div>            
+                        <div><i class="fa-brands fa-java icon-card"></i><h1 class="form-title">Java</h1><p class="form-text" data-i18n="lan-exp-text-java">para desenvolvimento <br>de aplicativos e lógica de programação.</p></div>            
+                        <div><i class="fa-brands fa-php icon-card"></i><h1 class="form-title">PHP</h1><p class="form-text" data-i18n="lan-exp-text-php">para desenvolvimento web e integração com bancos de dados.</p></div>            
+                        <div><i class="fa-solid fa-database icon-card"></i><h1 class="form-title">SQL / SQLite</h1><p class="form-text" data-i18n="lan-exp-text-sql">Modelagem, criação e manutenção de bancos de dados relacionais em MySQL e SQL Server.</p></div>            
+                        <div><i class="fa-brands fa-js icon-card"></i><h1 class="form-title" id="exp-javascript">JavaScript</h1><p class="form-text" data-i18n="lan-exp-text-js">para interatividade <br>em páginas web.</p></div>            
+                        <div><i class="fa-brands fa-html5 icon-card"></i><h1 class="form-title">HTML</h1><p class="form-text" data-i18n="lan-exp-text-html">para criação e organização <br>de sites e sistemas web.</p></div>            
+                        <div><i class="fa-brands fa-css icon-card"></i><h1 class="form-title">CSS</h1><p class="form-text" data-i18n="lan-exp-text-css">para a estilização <br>e personalização de sites</p></div>            
                     </div>
                 </div>
 
                 <br>
                 <br>
-
-                <p style="color: var(--branco); font-weight: bold; margin-left: 35%" id="exp-fer">Abaixo estão algumas das ferramentas que utilizo:</p>
+                <div style="display: flex; justify-content: center; align-items: center;">
+                    <p style="color: var(--branco); font-weight: bold;" id="exp-fer" data-i18n="lan-exp-tools">Abaixo estão algumas das ferramentas que utilizo:</p>
+                </div>
                 <br>
                 <div id="linha-skills">
                     <img src="../assets/img/vscode.png" class="skill-item">
@@ -149,7 +152,7 @@
     <!-- Projetos -->
     <section id="projetos">
         <div style="height: 200px; width: 100%; display: flex; background-color: transparent;">
-            <h1 class="me-text-title" style="margin-left: 60px; text-align: left; color: var(--azul-escuro); align-self: flex-end;">* Projetos relevantes *</h1>
+            <h1 class="me-text-title" style="margin-left: 60px; text-align: left; color: var(--azul-escuro); align-self: flex-end;" data-i18n="lan-projetos-title">* Projetos relevantes *</h1>
         </div>
 
         <br>
@@ -161,40 +164,40 @@
                     <img src="../assets/img/tresGoblins.jpg" alt="">
                     <div class="linha"></div>
                     <h2>Três Goblins</h2>
-                    <p>Sistema Web utilizado para <span>criar, armazenar e organizar fichas de personagens para jogadores de RPG</span> (Role Playing Game). O projeto nasceu a partir da reflexão sobre como as fichas de papel, comumente utilizadas pelos jogadores, podem tanto estragar facilmente quanto gerar lixo excessivo. Sendo assim, a plataforma é uma alternativa viável e 100% on-line para que os jogadores consigam ver seus personagens de forma simples e em qualquer lugar!</p>
-                    <p>Os maiores desafios se deram por conta da linguagem PHP, que pode ser considerada "antiga" para desenvolvimento web. Participei na maior parte do desenvolvimento front e back-end das páginas, utilizando os recursos do PHP ligado ao MySQL.</p>
+                    <p data-i18n="lan-projetos-tresgoblins-p1">Sistema Web utilizado para <span>criar, armazenar e organizar fichas de personagens para jogadores de RPG</span> (Role Playing Game). O projeto nasceu a partir da reflexão sobre como as fichas de papel, comumente utilizadas pelos jogadores, podem tanto estragar facilmente quanto gerar lixo excessivo. Sendo assim, a plataforma é uma alternativa viável e 100% on-line para que os jogadores consigam ver seus personagens de forma simples e em qualquer lugar!</p>
+                    <p data-i18n="lan-projetos-tresgoblins-p2">Os maiores desafios se deram por conta da linguagem PHP, que pode ser considerada "antiga" para desenvolvimento web. Participei na maior parte do desenvolvimento front e back-end das páginas, utilizando os recursos do PHP ligado ao MySQL.</p>
                     <br>
-                    <p><span>Linguagens utilizadas:</span> HTML, PHP, CSS, SQL e JavaScript<br>
-                    <span>Tecnologias:</span> Jquery e Ajax</p>
+                    <p><span data-i18n="lan-LU">Linguagens utilizadas:</span> HTML, PHP, CSS, SQL e JavaScript<br>
+                    <span data-i18n="lan-TEC">Tecnologias:</span> Jquery e Ajax</p>
                     <br>
 
-                    <a href="../assets/pdf/tresgoblins.pdf" download="Tres-Goblins-Doc.pdf" target="_blank">Acessar a documentação</a>
+                    <a href="../assets/pdf/tresgoblins.pdf" download="Tres-Goblins-Doc.pdf" target="_blank" data-i18n="lan-tresgoblins">Acessar a documentação</a>
                 </article>
 
                 <article>
                     <img src="../assets/img/sama.png" alt="">
                     <div class="linha"></div>
                     <h2>SAMA - Sistema de Atestados Médicos e Avaliações</h2>
-                    <p>O <span>SAMA</span> é um sistema desenvolvido para digitalizar o envio de atestados médicos e facilitar a avaliação contínua de equipes ágeis. Ele otimiza a gestão de documentos, melhora a comunicação entre os usuários e simplifica processos administrativos, promovendo maior transparência e eficiência. O projeto é desenvolvido com base na <span>metodologia ágil Scrum</span>, que utiliza sprints para garantir entregas contínuas, adaptativas e de alto valor para o cliente.</p>
-                    <p>Os maiores desafios se deram pelo aprendizado do framework Flask e a divisão de tarefas na metodologia SCRUM. Participei no desenvolvimento front e back-end de algumas páginas, utilizando os recursos do framework.</p>
+                    <p data-i18n="lan-projetos-sama-p1">O <span>SAMA</span> é um sistema desenvolvido para digitalizar o envio de atestados médicos e facilitar a avaliação contínua de equipes ágeis. Ele otimiza a gestão de documentos, melhora a comunicação entre os usuários e simplifica processos administrativos, promovendo maior transparência e eficiência. O projeto é desenvolvido com base na <span>metodologia ágil Scrum</span>, que utiliza sprints para garantir entregas contínuas, adaptativas e de alto valor para o cliente.</p>
+                    <p data-i18n="lan-projetos-sama-p2">Os maiores desafios se deram pelo aprendizado do framework Flask e a divisão de tarefas na metodologia SCRUM. Participei no desenvolvimento front e back-end de algumas páginas, utilizando os recursos do framework.</p>
                     <br>
-                    <p><span>Linguagens utilizadas:</span> HTML, CSS, JavaScript e Python<br>
-                    <span>Tecnologias:</span> Jquery, Ajax e Flask</p>
+                    <p><span data-i18n="lan-LU">Linguagens utilizadas:</span> HTML, CSS, JavaScript e Python<br>
+                    <span data-i18n="lan-TEC">Tecnologias:</span> Jquery, Ajax e Flask</p>
                     <br>
 
-                    <a href="https://github.com/dottecteam/SAMA-API" target="_blank">Acessar repositório</a>
+                    <a href="https://github.com/dottecteam/SAMA-API" target="_blank" data-i18n="lan-REPO">Acessar repositório</a>
                 </article>
 
                 <article>
                     <img src="../assets/img/bibliogames.jpg" alt="">
                     <div class="linha"></div>
                     <h2>Bibliogames</h2>
-                    <p>O <span>Bibliogames</span> é um sistema desenvolvido para digitalizar e organizar dados de jogos digitais já jogados pelo usuário, funcionando como uma lista
+                    <p data-i18n="lan-projetos-bibliogames-p1">O <span>Bibliogames</span> é um sistema desenvolvido para digitalizar e organizar dados de jogos digitais já jogados pelo usuário, funcionando como uma lista
                     pessoal. Foi pensado para uso pessoal, mas pode ser escalonado para outros usuários. Utiliza um banco de dados simples baseado em SQLite.</p>
-                    <p>Os maiores desafios se deram pelo aprendizado do framework Flask e a utilização mais aprofundada de CSS para a construção das telas. Participei no desenvolvimento front e back-end de todas as páginas, utilizando os recursos do framework e linguagem de marcação.</p>
+                    <p data-i18n="lan-projetos-bibliogames-p2">Os maiores desafios se deram pelo aprendizado do framework Flask e a utilização mais aprofundada de CSS para a construção das telas. Participei no desenvolvimento front e back-end de todas as páginas, utilizando os recursos do framework e linguagem de marcação.</p>
                     <br>
-                    <p><span>Linguagens utilizadas:</span> HTML, CSS, JavaScript, Python e SQLite<br>
-                    <span>Tecnologias:</span> Flask</p>
+                    <p><span data-i18n="lan-LU">Linguagens utilizadas:</span> HTML, CSS, JavaScript, Python e SQLite<br>
+                    <span data-i18n="lan-TEC">Tecnologias:</span> Flask</p>
                     <br>
                 </article>
 
@@ -202,25 +205,25 @@
                     <img src="../assets/img/PDI.jpg" alt="">
                     <div class="linha"></div>
                     <h2>PDI</h2>
-                    <p>Este programa foi desenvolvido para <span>otimizar o processo de criação e gestão de planos de desenvolvimento individual (PDIs)</span>. Ele oferece uma solução centralizada para líderes que buscam estruturar, monitorar e alcançar metas de crescimento de forma eficiente, promovendo uma cultura de melhoria contínua e desenvolvimento de competência.</p>
-                    <p>Os maiores desafios se deram pelo aprendizado da linguagem Java e a ferramenta JavaFX (na construção do front-end) e a divisão de tarefas na metodologia SCRUM. Participei no desenvolvimento front e back-end de algumas páginas, utilizando os recursos do framework.</p>
+                    <p data-i18n="lan-projetos-pdi-p1">Este programa foi desenvolvido para <span>otimizar o processo de criação e gestão de planos de desenvolvimento individual (PDIs)</span>. Ele oferece uma solução centralizada para líderes que buscam estruturar, monitorar e alcançar metas de crescimento de forma eficiente, promovendo uma cultura de melhoria contínua e desenvolvimento de competência.</p>
+                    <p data-i18n="lan-projetos-pdi-p2">Os maiores desafios se deram pelo aprendizado da linguagem Java e a ferramenta JavaFX (na construção do front-end) e a divisão de tarefas na metodologia SCRUM. Participei no desenvolvimento front e back-end de algumas páginas, utilizando os recursos do framework.</p>
                     <br>
-                    <p><span>Linguagens utilizadas:</span> Java e SQL<br>
-                    <span>Tecnologias:</span> JavaFX</p>
+                    <p><span data-i18n="lan-LU">Linguagens utilizadas:</span> Java e SQL<br>
+                    <span data-i18n="lan-TEC">Tecnologias:</span> JavaFX</p>
                     <br>
 
-                    <a href="https://github.com/dottecteam/PDI" target="_blank">Acessar o repositório</a>
+                    <a href="https://github.com/dottecteam/PDI" target="_blank" data-i18n="lan-REPO">Acessar o repositório</a>
                 </article>
 
                 <article>
                     <img src="../assets/img/maes.jpg" alt="">
                     <div class="linha"></div>
                     <h2>Mães que oram</h2>
-                    <p>O sistema foi desenvolvido para <span>organizar e gerenciar os encontros das Mães Que Oram pelos Filhos, um grupo de oração de uma paróquia.</span>
+                    <p data-i18n="lan-projetos-maes-p1">O sistema foi desenvolvido para <span>organizar e gerenciar os encontros das Mães Que Oram pelos Filhos, um grupo de oração de uma paróquia.</span>
                     Permite o cadastro de mães participantes, o gerenciamento dos encontros e serviços e a emissão de relatórios automáticos em .txt.</p>
-                    <p>Os maiores desafios se deram pelo aprendizado da linguagem Java.</p>
+                    <p data-i18n="lan-projetos-maes-p2">Os maiores desafios se deram pelo aprendizado da linguagem Java.</p>
                     <br>
-                    <p><span>Linguagens utilizadas:</span> Java<br>
+                    <p><span data-i18n="lan-LU">Linguagens utilizadas:</span> Java<br>
                     <br>
                 </article>
 
@@ -230,40 +233,40 @@
                     <img src="../assets/img/tresGoblins.jpg" alt="">
                     <div class="linha"></div>
                     <h2>Três Goblins</h2>
-                    <p>Sistema Web utilizado para <span>criar, armazenar e organizar fichas de personagens para jogadores de RPG</span> (Role Playing Game). O projeto nasceu a partir da reflexão sobre como as fichas de papel, comumente utilizadas pelos jogadores, podem tanto estragar facilmente quanto gerar lixo excessivo. Sendo assim, a plataforma é uma alternativa viável e 100% on-line para que os jogadores consigam ver seus personagens de forma simples e em qualquer lugar!</p>
-                    <p>Os maiores desafios se deram por conta da linguagem PHP, que pode ser considerada "antiga" para desenvolvimento web. Participei na maior parte do desenvolvimento front e back-end das páginas, utilizando os recursos do PHP ligado ao MySQL.</p>
+                    <p data-i18n="lan-projetos-tresgoblins-p1">Sistema Web utilizado para <span>criar, armazenar e organizar fichas de personagens para jogadores de RPG</span> (Role Playing Game). O projeto nasceu a partir da reflexão sobre como as fichas de papel, comumente utilizadas pelos jogadores, podem tanto estragar facilmente quanto gerar lixo excessivo. Sendo assim, a plataforma é uma alternativa viável e 100% on-line para que os jogadores consigam ver seus personagens de forma simples e em qualquer lugar!</p>
+                    <p data-i18n="lan-projetos-tresgoblins-p2">Os maiores desafios se deram por conta da linguagem PHP, que pode ser considerada "antiga" para desenvolvimento web. Participei na maior parte do desenvolvimento front e back-end das páginas, utilizando os recursos do PHP ligado ao MySQL.</p>
                     <br>
-                    <p><span>Linguagens utilizadas:</span> HTML, PHP, CSS, SQL e JavaScript<br>
-                    <span>Tecnologias:</span> Jquery e Ajax</p>
+                    <p><span data-i18n="lan-LU">Linguagens utilizadas:</span> HTML, PHP, CSS, SQL e JavaScript<br>
+                    <span data-i18n="lan-TEC">Tecnologias:</span> Jquery e Ajax</p>
                     <br>
 
-                    <a href="#">Acessar a documentação</a>
+                    <a href="../assets/pdf/tresgoblins.pdf" download="Tres-Goblins-Doc.pdf" target="_blank" data-i18n="lan-tresgoblins">Acessar a documentação</a>
                 </article>
 
                 <article>
                     <img src="../assets/img/sama.png" alt="">
                     <div class="linha"></div>
                     <h2>SAMA - Sistema de Atestados Médicos e Avaliações</h2>
-                    <p>O <span>SAMA</span> é um sistema desenvolvido para digitalizar o envio de atestados médicos e facilitar a avaliação contínua de equipes ágeis. Ele otimiza a gestão de documentos, melhora a comunicação entre os usuários e simplifica processos administrativos, promovendo maior transparência e eficiência. O projeto é desenvolvido com base na <span>metodologia ágil Scrum</span>, que utiliza sprints para garantir entregas contínuas, adaptativas e de alto valor para o cliente.</p>
-                    <p>Os maiores desafios se deram pelo aprendizado do framework Flask e a divisão de tarefas na metodologia SCRUM. Participei no desenvolvimento front e back-end de algumas páginas, utilizando os recursos do framework.</p>
+                    <p data-i18n="lan-projetos-sama-p1">O <span>SAMA</span> é um sistema desenvolvido para digitalizar o envio de atestados médicos e facilitar a avaliação contínua de equipes ágeis. Ele otimiza a gestão de documentos, melhora a comunicação entre os usuários e simplifica processos administrativos, promovendo maior transparência e eficiência. O projeto é desenvolvido com base na <span>metodologia ágil Scrum</span>, que utiliza sprints para garantir entregas contínuas, adaptativas e de alto valor para o cliente.</p>
+                    <p data-i18n="lan-projetos-sama-p2">Os maiores desafios se deram pelo aprendizado do framework Flask e a divisão de tarefas na metodologia SCRUM. Participei no desenvolvimento front e back-end de algumas páginas, utilizando os recursos do framework.</p>
                     <br>
-                    <p><span>Linguagens utilizadas:</span> HTML, CSS, JavaScript e Python<br>
-                    <span>Tecnologias:</span> Jquery, Ajax e Flask</p>
+                    <p><span data-i18n="lan-LU">Linguagens utilizadas:</span> HTML, CSS, JavaScript e Python<br>
+                    <span data-i18n="lan-TEC">Tecnologias:</span> Jquery, Ajax e Flask</p>
                     <br>
 
-                    <a href="#">Acessar repositório</a>
+                    <a href="https://github.com/dottecteam/SAMA-API" target="_blank" data-i18n="lan-REPO">Acessar repositório</a>
                 </article>
 
                 <article>
                     <img src="../assets/img/bibliogames.jpg" alt="">
                     <div class="linha"></div>
                     <h2>Bibliogames</h2>
-                    <p>O <span>Bibliogames</span> é um sistema desenvolvido para digitalizar e organizar dados de jogos digitais já jogados pelo usuário, funcionando como uma lista
+                    <p data-i18n="lan-projetos-bibliogames-p1">O <span>Bibliogames</span> é um sistema desenvolvido para digitalizar e organizar dados de jogos digitais já jogados pelo usuário, funcionando como uma lista
                     pessoal. Foi pensado para uso pessoal, mas pode ser escalonado para outros usuários. Utiliza um banco de dados simples baseado em SQLite.</p>
-                    <p>Os maiores desafios se deram pelo aprendizado do framework Flask e a utilização mais aprofundada de CSS para a construção das telas. Participei no desenvolvimento front e back-end de todas as páginas, utilizando os recursos do framework e linguagem de marcação.</p>
+                    <p data-i18n="lan-projetos-bibliogames-p2">Os maiores desafios se deram pelo aprendizado do framework Flask e a utilização mais aprofundada de CSS para a construção das telas. Participei no desenvolvimento front e back-end de todas as páginas, utilizando os recursos do framework e linguagem de marcação.</p>
                     <br>
-                    <p><span>Linguagens utilizadas:</span> HTML, CSS, JavaScript, Python e SQLite<br>
-                    <span>Tecnologias:</span> Flask</p>
+                    <p><span data-i18n="lan-LU">Linguagens utilizadas:</span> HTML, CSS, JavaScript, Python e SQLite<br>
+                    <span data-i18n="lan-TEC">Tecnologias:</span> Flask</p>
                     <br>
                 </article>
 
@@ -271,25 +274,25 @@
                     <img src="../assets/img/PDI.jpg" alt="">
                     <div class="linha"></div>
                     <h2>PDI</h2>
-                    <p>Este programa foi desenvolvido para <span>otimizar o processo de criação e gestão de planos de desenvolvimento individual (PDIs)</span>. Ele oferece uma solução centralizada para líderes que buscam estruturar, monitorar e alcançar metas de crescimento de forma eficiente, promovendo uma cultura de melhoria contínua e desenvolvimento de competência.</p>
-                    <p>Os maiores desafios se deram pelo aprendizado da linguagem Java e a ferramenta JavaFX (na construção do front-end) e a divisão de tarefas na metodologia SCRUM. Participei no desenvolvimento front e back-end de algumas páginas, utilizando os recursos do framework.</p>
+                    <p data-i18n="lan-projetos-pdi-p1">Este programa foi desenvolvido para <span>otimizar o processo de criação e gestão de planos de desenvolvimento individual (PDIs)</span>. Ele oferece uma solução centralizada para líderes que buscam estruturar, monitorar e alcançar metas de crescimento de forma eficiente, promovendo uma cultura de melhoria contínua e desenvolvimento de competência.</p>
+                    <p data-i18n="lan-projetos-pdi-p2">Os maiores desafios se deram pelo aprendizado da linguagem Java e a ferramenta JavaFX (na construção do front-end) e a divisão de tarefas na metodologia SCRUM. Participei no desenvolvimento front e back-end de algumas páginas, utilizando os recursos do framework.</p>
                     <br>
-                    <p><span>Linguagens utilizadas:</span> Java e SQL<br>
-                    <span>Tecnologias:</span> JavaFX</p>
+                    <p><span data-i18n="lan-LU">Linguagens utilizadas:</span> Java e SQL<br>
+                    <span data-i18n="lan-TEC">Tecnologias:</span> JavaFX</p>
                     <br>
 
-                    <a href="#">Acessar o repositório</a>
+                    <a href="https://github.com/dottecteam/PDI" target="_blank" data-i18n="lan-REPO">Acessar o repositório</a>
                 </article>
 
                 <article>
                     <img src="../assets/img/maes.jpg" alt="">
                     <div class="linha"></div>
                     <h2>Mães que oram</h2>
-                    <p>O sistema foi desenvolvido para <span>organizar e gerenciar os encontros das Mães Que Oram pelos Filhos, um grupo de oração de uma paróquia.</span>
+                    <p data-i18n="lan-projetos-maes-p1">O sistema foi desenvolvido para <span>organizar e gerenciar os encontros das Mães Que Oram pelos Filhos, um grupo de oração de uma paróquia.</span>
                     Permite o cadastro de mães participantes, o gerenciamento dos encontros e serviços e a emissão de relatórios automáticos em .txt.</p>
-                    <p>Os maiores desafios se deram pelo aprendizado da linguagem Java.</p>
+                    <p data-i18n="lan-projetos-maes-p2">Os maiores desafios se deram pelo aprendizado da linguagem Java.</p>
                     <br>
-                    <p><span>Linguagens utilizadas:</span> Java<br>
+                    <p><span data-i18n="lan-LU">Linguagens utilizadas:</span> Java<br>
                     <br>
                 </article>
 
@@ -301,7 +304,7 @@
 
     <!-- Habilidades -->
     <section id="habilidades">
-        <div style="display: flex; justify-content: center;"><h1 class="me-text-title" style="align-self: flex-end; font-size: 150px;">Habilidades</h1></div>
+        <div style="display: flex; justify-content: center;"><h1 class="me-text-title" style="align-self: flex-end; font-size: 150px;" data-i18n="lan-hab-title" id="hab-sec-title">Habilidades</h1></div>
 
         <div id="hab-container">
             <div id="soft">
@@ -312,32 +315,32 @@
                 <div class="hab-card-body">
                     <div>
                         <i class="fa-solid fa-compass"></i>
-                        <p>Liderança</p>
+                        <p data-i18n="lan-hab-soft-lideranca">Liderança</p>
                     </div>
 
                     <div>
                         <i class="fa-solid fa-arrows-rotate"></i>
-                        <p>Adaptabilidade</p>
+                        <p data-i18n="lan-hab-soft-adaptabilidade">Adaptabilidade</p>
                     </div>
 
                     <div>
                         <i class="fa-solid fa-shuffle"></i>
-                        <p>Flexibilidade</p>
+                        <p data-i18n="lan-hab-soft-flexibilidade">Flexibilidade</p>
                     </div>
 
                     <div>
                         <i class="fa-solid fa-lightbulb"></i>
-                        <p>Criatividade</p>
+                        <p data-i18n="lan-hab-soft-criatividade">Criatividade</p>
                     </div>
 
                     <div>
                         <i class="fa-solid fa-hand-holding-hand"></i>
-                        <p>Empatia</p>
+                        <p data-i18n="lan-hab-soft-empatia">Empatia</p>
                     </div>
 
                     <div>
                         <i class="fa-solid fa-people-group"></i>
-                        <p>Trabalho em equipe</p>
+                        <p data-i18n="lan-hab-soft-trabalho-em-equipe">Trabalho em equipe</p>
                     </div>
                 </div>
             </div>
@@ -350,32 +353,32 @@
                 <div class="hab-card-body">
                     <div>
                         <i class="fa-solid fa-pencil"></i>
-                        <p>Escrita</p>
+                        <p data-i18n="lan-hab-hard-escrita">Escrita</p>
                     </div>
 
                     <div>
                         <i class="fa-brands fa-microsoft"></i>
-                        <p>Pacote Office</p>
+                        <p data-i18n="lan-hab-hard-pacote-office">Pacote Office</p>
                     </div>
 
                     <div>
                         <i class="fa-solid fa-rocket"></i>
-                        <p>Criação de protótipos</p>
+                        <p data-i18n="lan-hab-hard-prototipos">Criação de protótipos</p>
                     </div>
 
                     <div>
                        <i class="fa-solid fa-terminal"></i>
-                        <p>Linguagens de programação</p>
+                        <p data-i18n="lan-hab-hard-programacao">Linguagens de programação</p>
                     </div>
 
                     <div>
                         <i class="fa-solid fa-earth-americas"></i>
-                        <p>Língua inglesa</p>
+                        <p data-i18n="lan-hab-hard-ingles">Língua inglesa</p>
                     </div>
 
                     <div>
                         <i class="fa-brands fa-git-alt"></i>
-                        <p>Git e GitHub</p>
+                        <p data-i18n="lan-hab-hard-git">Git e GitHub</p>
                     </div>
                 </div>
             </div>
@@ -385,12 +388,12 @@
     <!-- Trajetoria -->
     <section id="trajetoria">
         <div style="background-color: transparent; display: flex; justify-content: flex-end; align-items: flex-end;">
-            <h2 style="font-size: 80px; margin-right: 5%; color: var(--azul-escuro);" id="traj-ok">Trajetória</h2>
+            <h2 style="color: var(--azul-escuro);" data-i18n="lan-traj-title" id="traj-sec-title">Trajetória</h2>
         </div>
 
         <div id="trajetoria-container">
             <div id="traj-texto">
-                <p id="traj-texto-p">Ao longo da <span>minha trajetória profissional</span>, tive a oportunidade de participar de diferentes experiências e projetos que contribuíram para o desenvolvimento das minhas habilidades técnicas e interpessoais. <br>Cada etapa apresentada a seguir <span>representa aprendizados importantes, desafios enfrentados e soluções construídas</span>, refletindo um processo contínuo de evolução, adaptação e crescimento profissional.</p>
+                <p id="traj-texto-p" data-i18n="lan-traj-text">Ao longo da <span>minha trajetória profissional</span>, tive a oportunidade de participar de diferentes experiências e projetos que contribuíram para o desenvolvimento das minhas habilidades técnicas e interpessoais. <br>Cada etapa apresentada a seguir <span>representa aprendizados importantes, desafios enfrentados e soluções construídas</span>, refletindo um processo contínuo de evolução, adaptação e crescimento profissional.</p>
             </div>
             
             <div id="traj-cards">
@@ -398,7 +401,7 @@
                     <div class="form-photo"><img src="../assets/img/fariacursino.png"></div>
                         <div class="form-content">
                             <div class="transparente"><h1 style="font-family: 'Titulo', sans-serif; margin-top: 3%">FARIA CURSINO CONTABILIDADE</h1></div>
-                            <p class="texto-branco" style="margin-top: 40px; text-align: justify; width: 90%; margin: auto;">Atuei como estagiário por aproximadamente quatro meses, com foco na área fiscal. Durante esse período, fui responsável pelo lançamento e emissão de notas fiscais, além da conferência e organização de dados, garantindo a correta escrituração e atenção aos detalhes. A experiência contribuiu para o desenvolvimento de organização, responsabilidade e familiaridade com rotinas fiscais e administrativas.</p>
+                            <p class="texto-branco" style="margin-top: 40px; text-align: justify; width: 90%; margin: auto;" data-i18n="lan-traj-fariacursino">Atuei como estagiário por aproximadamente cinco meses, com foco na área fiscal. Durante esse período, fui responsável pelo lançamento e emissão de notas fiscais, além da conferência e organização de dados, garantindo a correta escrituração e atenção aos detalhes. A experiência contribuiu para o desenvolvimento de organização, responsabilidade e familiaridade com rotinas fiscais e administrativas.</p>
 
                             
                         </div>
@@ -411,48 +414,48 @@
     <!-- Certificações -->
     <section id="certificacoes">
         <div id="cert-title">
-           <h1 style="font-family: 'Titulo', sans-serif; font-size: 100px;" id="cert-ok">Certificações</h1>
+           <h1 style="font-family: 'Titulo', sans-serif; font-size: 100px;" id="cert-ok" data-i18n="lan-cert-title">Certificações</h1>
         </div>
 
         <div id="cert-body">
             <article class="certificado">
                 <figure><img src="../assets/img/certificados/certTG.jpeg" class="img-cert"></figure>
-                <p>Certificado de assiduidade - Exército Brasileiro</p>
+                <p data-i18n="lan-cert-text1">Certificado de assiduidade - Exército Brasileiro</p>
             </article>
 
             <article class="certificado">
                 <figure><img src="../assets/img/certificados/certificado1.jpg" class="img-cert"></figure>
-                <p>Certificado de nota 1000 na redação do simulado ENEM - Colégio Opção</p>
+                <p data-i18n="lan-cert-text2">Certificado de nota 1000 na redação do simulado ENEM - Colégio Opção</p>
             </article>
 
             <article class="certificado">
                 <figure><img src="../assets/img/certificados/certGit.png" class="img-cert"></figure>
-                <p>Certificado de conclusão do curso de Git básico - Cursa</p>
+                <p data-i18n="lan-cert-text3">Certificado de conclusão do curso de Git básico - Cursa</p>
             </article>
 
             <article class="certificado">
                 <figure><img src="../assets/img/certificados/certificado2.jpg" class="img-cert"></figure>
-                <p>Certificado de projeto de interface gráfica com Python - Bradesco</p>
+                <p data-i18n="lan-cert-text4">Certificado de projeto de interface gráfica com Python - Bradesco</p>
             </article>
 
             <article class="certificado">
                 <figure><img src="../assets/img/certificados/certificado3.png" class="img-cert"></figure>
-                <p>Certificado de conclusão do curso de Implementação de banco de dados - Bradesco</p>
+                <p data-i18n="lan-cert-text5">Certificado de conclusão do curso de Implementação de banco de dados - Bradesco</p>
             </article>
 
             <article class="certificado">
                 <figure><img src="../assets/img/certificados/certificado4.png" class="img-cert"></figure>
-                <p>Certificado de conclusão do curso de Escola de Inovadores - CPS</p>
+                <p data-i18n="lan-cert-text6">Certificado de conclusão do curso de Escola de Inovadores - CPS</p>
             </article>
 
             <article class="certificado">
                 <figure><img src="../assets/img/certificados/certificado5.png" class="img-cert"></figure>
-                <p>Certificado de conclusão do curso de Modelagem de Dados - Bradesco</p>
+                <p data-i18n="lan-cert-text7">Certificado de conclusão do curso de Modelagem de Dados - Bradesco</p>
             </article>
 
             <article class="certificado">
                 <figure><img src="../assets/img/certificados/certificado6.png" class="img-cert"></figure>
-                <p>Certificado de conclusão do curso de IA no Governo Federal - Enap</p>
+                <p data-i18n="lan-cert-text8">Certificado de conclusão do curso de IA no Governo Federal - Enap</p>
             </article>
 
         </div>
@@ -462,7 +465,7 @@
     <footer class="footer"> 
         <div class="footer-left"><img src="../assets/img/teste.png" id="img-footer"></div>
 
-        <div class="footer-mid"><p style="text-align: center; color: var(--branco);">© 2026 Cauã Cursino.<br>Desenvolvido com paixão por tecnologia, código limpo e inovação.<br>Feito com HTML, CSS, JavaScript e café ☕ — Todos os direitos reservados.</p></div>
+        <div class="footer-mid"><p style="text-align: center; color: var(--branco);" data-i18n="lan-footer">© 2026 Cauã Cursino.<br>Desenvolvido com paixão por tecnologia, código limpo e inovação.<br>Feito com HTML, CSS, JavaScript e café ☕ — Todos os direitos reservados.</p></div>
 
         <div class="footer-right">
             <a href="https://www.linkedin.com/in/cauã-cursino-748485235/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>

@@ -33,7 +33,7 @@
 /* Card */
 .carousel article {
   width: 680px;
-  height: 600px;
+  height: 620px;
   background-color: var(--azul-escuro);
   border-radius: 10px;
   overflow: hidden;

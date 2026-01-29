@@ -1,0 +1,103 @@
+{
+    "_comment": "PARTE DO HEADER",
+
+    "lan-header-about": "Me",
+    "lan-header-formacoes": "Academic Background",
+    "lan-header-experiencias": "Tech Stack",
+    "lan-header-projetos": "Projects",
+    "lan-header-habilidades": "Skills",
+    "lan-header-trajetoria": "Professional Journey",
+    "lan-header-certificacoes": "Certifications",
+    "lan-banner": "by Cauã Cursino",
+
+
+    "_comment2": "PARTE SOBRE MIM",
+
+    "lan-about-title": "* about me *",
+    "lan-about-text-p1": "Hello! My name is <span>Cauã Mehiel Faria Cursino</span>. Before moving on to the academic part, I would like to make a brief introduction. I was born in São José dos Campos, São Paulo, and I am currently 19 years old. I currently study at FATEC São José dos Campos - Prof. Jessen Vidal and I am pursuing a degree in <span>Systems Analysis and Development</span> and I intend to work in the programming field! In 2025, I served in the <span>Brazilian Army</span> and had the opportunity to develop values and skills that I carry with me to this day in my professional life, such as discipline, sense of responsibility, teamwork, and the ability to perform under pressure.",
+    "lan-about-text-p2": "My main hobbies involve drawing, listening to music, reading books and playing games of all kinds. I am a computer technician with three years of training and a great interest in software development and technical support. I have practical experience in various programming languages and technologies, as well as a proactive, analytical profile always ready to learn. My goal is to integrate into a team where I can apply my knowledge, solve challenges and continue professionally evolving.",
+    "lan-about-text-p3": "In recent months, I challenged myself to work with <span>video editing and audiovisual productions</span>, exploring different editing styles — from institutional videos, advertisements and content for social media. My goal is always the same: translate the client's idea into an engaging and authentic visual narrative. The content I have developed, recorded and edited can be found on this profile: <span><a href=\"https://www.instagram.com/edercursino/\" target=\"_blank\">Open profile on Instagram</a></span></p>",
+    "lan-about-curriculo-download": "<i class=\"fa-solid fa-file-arrow-down icon\"></i> Download my complete resume!",
+
+    "_comment3": "PARTE FORMACOES",
+
+    "lan-form-title": "* Academic Background *",
+    "lan-form-etep": "I studied at ETEP, where I completed my technical course in computer science. During my training, I learned about programming, databases and the Office suite. This experience provided me with a solid foundation to deepen my knowledge in the technology field in the future.",
+    "lan-form-opcao": "I studied at Colégio Técnico Opção, where I completed high school and a technical course in computer science. During my training, I deepened my knowledge of programming and databases. This experience gave me a better understanding of technologies and their practical application.",
+    "lan-form-fatec": "I am currently studying at FATEC São José dos Campos, where I am pursuing a degree in Systems Analysis and Development. During my training, I am improving my knowledge of programming (Web and Desktop), databases, software development and agile methodologies. This experience has given me a better understanding of both the programming field and the job market.",
+
+
+    "_comment4": "PARTE EXPERIÊNCIAS",
+
+    "lan-exp-title": "Tech Stack",
+    "lan-exp-text": "Throughout the course and personal and academic experiences, I have acquired skills in the following areas:",
+    "lan-exp-text-java": "For application development <br>and programming logic.",
+    "lan-exp-text-python": "Used for automation, data analysis and various scripts.",
+    "lan-exp-text-csharp": "For desktop applications and GUI system development.",
+    "lan-exp-text-php": "For web development and database integration.",
+    "lan-exp-text-sql": "Relational database modeling, creation and maintenance in MySQL and SQL Server.",
+    "lan-exp-text-js": "For interactivity <br>on web pages.",
+    "lan-exp-text-html": "For creating and organizing <br>websites and web systems.",
+    "lan-exp-text-css": "For styling <br>and customizing websites",
+    "lan-exp-tools": "Below are some of the tools I use:",
+
+    "_comment5": "PARTE HABILIDADES",
+
+    "lan-hab-title": "Skills",
+    "lan-hab-soft-lideranca": "Leadership",
+    "lan-hab-soft-adaptabilidade": "Adaptability",
+    "lan-hab-soft-flexibilidade": "Flexibility",
+    "lan-hab-soft-criatividade": "Creativity",
+    "lan-hab-soft-empatia": "Empathy",
+    "lan-hab-soft-trabalho-em-equipe": "Teamwork",
+    "lan-hab-hard-escrita": "Writing",
+    "lan-hab-hard-pacote-office": "Office Suite",
+    "lan-hab-hard-prototipos": "Prototype Creation",
+    "lan-hab-hard-programacao": "Programming Languages",
+    "lan-hab-hard-ingles": "English",
+    "lan-hab-hard-git": "Git and GitHub",
+
+
+    "_xcomment6": "PARTE TRAJETÓRIA",
+
+    "lan-traj-title": "Professional Journey",
+    "lan-traj-text": "Throughout my <span>professional journey</span>, I had the opportunity to participate in different experiences and projects that contributed to the development of my technical and interpersonal skills. <br>Each step presented below <span>represents important learnings, challenges faced and solutions built</span>, reflecting a continuous process of evolution, adaptation and professional growth.",
+    "lan-traj-fariacursino": "I worked as an intern for approximately five months, focusing on the fiscal area. During this period, I was responsible for issuing and emitting fiscal notes, as well as checking and organizing data, ensuring correct accounting and attention to details. The experience contributed to the development of organization, responsibility and familiarity with fiscal and administrative routines.",
+
+
+    "_comment7": "PARTE CERTIFICAÇÕES",
+
+    "lan-cert-title": "Certifications",
+    "lan-cert-text1": "Certificate of attendance - Brazilian Army",
+    "lan-cert-text2": "Certificate of 1000 score in ENEM <br> mock exam writing - Colégio Opção",
+    "lan-cert-text3": "Certificate of completion of basic Git course - Cursa",
+    "lan-cert-text4": "Certificate of GUI project with Python - Bradesco",
+    "lan-cert-text5": "Certificate of completion of database <br> implementation course - Bradesco",
+    "lan-cert-text6": "Certificate of completion of Innovators School course - CPS",
+    "lan-cert-text7": "Certificate of completion of Data Modeling course - Bradesco",
+    "lan-cert-text8": "Certificate of completion of AI in Federal <br> Government course - Enap",
+
+
+    "_comment8": "PARTE FOOTER",
+    "lan-footer": "© 2026 Cauã Cursino.<br>Developed with passion for technology, clean code and innovation.<br>Made with HTML, CSS, JavaScript and coffee ☕ — All rights reserved.",
+
+
+    "_comment9": "PROJETOS",
+
+    "lan-projetos-title": "* Projetos relevantes *",
+    "lan-projetos-tresgoblins-p1": "Web System used to <span>create, store and organize character sheets for RPG players</span> (Role Playing Game). The project was born from the reflection on how paper sheets, commonly used by players, can both easily get damaged and generate excessive waste. Thus, the platform is a viable and 100% online alternative for players to view their characters simply and anywhere!",
+    "lan-projetos-tresgoblins-p2": "The biggest challenges were due to the PHP language, which can be considered \"old\" for web development. I participated in most of the front and back-end development of the pages, using the resources of PHP linked to MySQL.",
+    "lan-tresgoblins": "Access documentation",
+    "lan-projetos-sama-p1": "The <span>SAMA</span> is a system developed to digitize the sending of medical certificates and facilitate the continuous evaluation of agile teams. It optimizes document management, improves communication between users and simplifies administrative processes, promoting greater transparency and efficiency. The project is developed based on the <span>agile Scrum methodology</span>, which uses sprints to ensure continuous, adaptive and high-value deliveries to the client.",
+    "lan-projetos-sama-p2": "The biggest challenges were due to the learning of the Flask framework and the division of tasks in the SCRUM methodology. I participated in the front and back-end development of some pages, using the resources of the framework.",
+    "lan-projetos-bibliogames-p1": "The <span>Bibliogames</span> is a system developed to digitize and organize data from digital games already played by the user, functioning as a personal list. It was thought for personal use, but can be scaled for other users. It uses a simple database based on SQLite.",
+    "lan-projetos-bibliogames-p2": "The biggest challenges were due to the learning of the Flask framework and more in-depth use of CSS for screen construction. I participated in the front and back-end development of all pages, using the resources of the framework and markup language.",
+    "lan-projetos-pdi-p1": "This program was developed to <span>optimize the process of creating and managing individual development plans (PDIs)</span>. It offers a centralized solution for leaders who seek to structure, monitor and achieve growth goals efficiently, promoting a culture of continuous improvement and competency development.",
+    "lan-projetos-pdi-p2": "The biggest challenges were due to learning the Java language and the JavaFX tool (for front-end construction) and dividing tasks in the SCRUM methodology. I participated in the front and back-end development of some pages, using resources from the framework.",
+    "lan-projetos-maes-p1": "The system was developed to <span>organize and manage the meetings of the Mothers Who Pray for Their Children, a prayer group of a parish.</span> It allows the registration of participating mothers, the management of meetings and services and the automatic generation of reports in .txt.",
+    "lan-projetos-maes-p2": "The biggest challenges were due to learning the Java language.",
+    "lan-LU": "Languages used:",
+    "lan-TEC": "Technologies:",
+    "lan-REPO": "Access repository"
+
+}
