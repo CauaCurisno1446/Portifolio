@@ -198,8 +198,8 @@
 
     /* --- Experiências e Skills --- */
 
-    #experi{
-        font-size: 60px !important;
+    #tec-sec-title {
+        font-size: 50px !important;
     }
 
     #exp-fer{
@@ -272,7 +272,7 @@
     }
 
     #hab-sec-title {
-        font-size: 60px !important;
+        font-size: 50px !important;
         margin-bottom: 30px;
         margin-top: 10px;
     }
@@ -340,8 +340,9 @@
         height: auto;
     }
 
-    #cert-ok{
-        font-size: 52px !important;
+    #cert-sec-title {
+        font-size: 48px !important;
+        
     }
 
     /* --- Footer --- */
