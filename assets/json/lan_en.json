@@ -84,7 +84,7 @@
 
     "_comment9": "PROJETOS",
 
-    "lan-projetos-title": "* Projetos relevantes *",
+    "lan-projetos-title": "* Key Projects *",
     "lan-projetos-tresgoblins-p1": "Web System used to <span>create, store and organize character sheets for RPG players</span> (Role Playing Game). The project was born from the reflection on how paper sheets, commonly used by players, can both easily get damaged and generate excessive waste. Thus, the platform is a viable and 100% online alternative for players to view their characters simply and anywhere!",
     "lan-projetos-tresgoblins-p2": "The biggest challenges were due to the PHP language, which can be considered \"old\" for web development. I participated in most of the front and back-end development of the pages, using the resources of PHP linked to MySQL.",
     "lan-tresgoblins": "Access documentation",
