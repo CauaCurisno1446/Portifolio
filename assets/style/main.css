@@ -142,6 +142,7 @@
     font-family: "Regular", sans-serif;
     font-size: 22px;
     text-align: justify;
+    width: 95%;
 }
 
 .me-text-body p > span{
